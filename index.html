@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Quiz Project</title>
+</head>
+<body>
+    <div class="quiz-app">
+        <h1>JavaScript Developer Quiz</h1>
+
+        <hr>
+
+        <div id="quiz-game">
+            <h2><span id="qNum">1. </span><span id="question"></span></h2>
+            <div id="radio-btns">
+                <div class="radio-btn">
+                    <input type="radio" id="a" name="answers" value="0">
+                    <label class="radio-btn-label" for="a"></label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" id="b" name="answers" value="1">
+                    <label class="radio-btn-label" for="b"></label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" id="c" name="answers" value="2">
+                    <label class="radio-btn-label" for="c"></label>
+                </div>
+                <div class="radio-btn">
+                    <input type="radio" id="d" name="answers" value="3">
+                    <label class="radio-btn-label" for="d"></label>
+                </div>
+            </div>
+        </div>
+
+        <div id="results">
+            <h2>Thank you for taking this quiz. You scored:</h2>
+            <h1 id="final-score"></h1>
+        </div>
+
+        <button>Confirm Answer</button>
+        
+        <p id="answer-result"></p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
